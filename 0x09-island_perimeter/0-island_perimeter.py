@@ -5,6 +5,9 @@ Function to calculate the perimeter of an island in a grid
 
 
 def island_perimeter(grid):
+    """
+    Function calculates the perimeter of an island in a grid
+    """
     perimeter = 0
     rows = len(grid)
     cols = len(grid[0])
